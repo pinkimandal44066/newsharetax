@@ -143,7 +143,7 @@ const teamMembers = [
     name: "Sumit Singh",
     image: "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?ga=GA1.1.2000051094.1716005427&semt=ais_hybrid",
     role: "CEO & Founder",
-    description: "With a mission to enhance financial literacy among those who may not fully understand the concept of “finance,” Sumit founded ShareTax...",
+    description: "With a mission to enhance financial literacy among those who may not fully understand the concept of “finance,” Sumit founded ShareTax. Sumit, a finance graduate with over 10 years of expertise in finance, accounting, and taxation, is a certified Research Analyst from the Securities Market of India and also holds a certification in Investment Banking from IIM Indore.",
   },
   {
     name: "Rishav Kejriwal",

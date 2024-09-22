@@ -658,7 +658,7 @@ const Blog = () => {
         </div>
       </div>
 
-   {/* <Blogtwo /> */}
+   <Blogtwo />
     </div>
   );
 };
