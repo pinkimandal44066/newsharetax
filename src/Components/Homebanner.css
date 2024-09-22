@@ -1,0 +1,16 @@
+.custom-dots li {
+    margin: 0 5px;
+  }
+  
+  .custom-dots button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: white; /* Change to your preferred color */
+    opacity: 0.5;
+  }
+  
+  .custom-dots .slick-active button {
+    opacity: 1; /* Active dot color */
+  }
+  
