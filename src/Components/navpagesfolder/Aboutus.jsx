@@ -375,7 +375,7 @@ Our distinctive framework seamlessly integrates finance and tax expertise, setti
           </div>
         </div>
       </section> */}
-
+<Ourteam />
       {/* Mission Statement Section */}
       <section className="bg-blue-700  text-white py-16">
         <div className="max-w-4xl mx-auto text-center">
@@ -436,7 +436,7 @@ Our distinctive framework seamlessly integrates finance and tax expertise, setti
       </section> */}
 
 
-{/* <Ourteam /> */}
+
 
       {/* Client Testimonials Section */}
       {/* <section className="bg-gray-100 py-16">
