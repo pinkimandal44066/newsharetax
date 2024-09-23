@@ -403,8 +403,8 @@ const Home = () => {
 
 
 
-
-<div className="min-h-screen flex justify-center items-center lg:mx-20 lg:-mt-20 md:-mt-1  sm:-mt-1 mb-16 -mt-14">
+{/* 
+<div className="min-h-screen flex justify-center items-center lg:mx-20 lg:-mt-16 -mt-14">
   <div className="max-w-7xl w-full mx-auto flex flex-col lg:flex-row items-center lg:items-start p-4 sm:p-6 lg:p-12 space-y-10 lg:space-y-0 lg:space-x-16">
 
     <div className="lg:w-1/2 w-full text-center lg:text-left">
@@ -422,10 +422,7 @@ const Home = () => {
         </div>
         
 
-        {/* className="bg-blue-600 text-white hover:text-black
-         font-semibold py-2 px-6 rounded-lg shadow-md
-         hover:bg-white" */}
-        {/* Button next to social media icons on all devices except mobile */}
+      
 
         <NavLink to='/contact-us'>
         <button className="bg-blue-600 text-white lg:py-4 lg:px-5
@@ -435,7 +432,7 @@ const Home = () => {
         </NavLink>
       </div>
 
-      {/* Button below social media icons on mobile screens */}
+
       <NavLink to='/contact-us'>
       <button className="bg-blue-600 text-white px-6 py-4  -mt-10
       rounded-lg hover:bg-blue-800 transition duration-200 lg:hidden">
@@ -460,9 +457,74 @@ const Home = () => {
     </div>
 
   </div>
+</div> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div className=" flex justify-center items-center lg:mx-20 ">
+  <div className="max-w-7xl w-full mx-auto flex flex-col lg:flex-row items-center lg:items-start p-4 sm:p-6 lg:p-12 space-y-10 lg:space-y-0 lg:space-x-16">
+
+    <div className="lg:w-1/2 w-full text-center lg:text-left">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">Get in Touch</h1>
+      <p className="text-lg sm:text-xl text-gray-700 mb-5">
+        We'd love to learn more about you and what we can design and build together.
+      </p>
+
+      <div className="flex flex-col lg:flex-row items-center lg:items-start space-y-4 lg:space-y-0 lg:space-x-6 mb-10">
+        <div className="flex justify-center lg:justify-start space-x-6">
+          <FaInstagramSquare className="text-blue-600 hover:text-blue-800 w-14 h-14" />
+          <FaFacebookSquare className="text-blue-600 hover:text-blue-800 w-14 h-14" />
+          <FaTwitter className="text-blue-600 hover:text-blue-800 w-14 h-14" />
+          <FaLinkedin className="text-blue-600 hover:text-blue-800 w-14 h-14" />
+        </div>
+        
+
+      
+
+        <NavLink to='/contact-us'>
+        <button className="bg-blue-600 text-white lg:py-4 lg:px-5
+        md:py-4   rounded-lg hover:bg-blue-800 transition duration-200 hidden lg:block">
+          Contact Us
+        </button>
+        </NavLink>
+      </div>
+
+     
+      <NavLink to='/contact-us'>
+      <button className="bg-blue-600 text-white px-6 py-4  -mt-10
+      rounded-lg hover:bg-blue-800 transition duration-200 lg:hidden">
+        Contact Us
+      </button>
+      </NavLink>
+    </div>
+
+    <div className="lg:w-1/2 w-full flex flex-col space-y-10">
+      <div className="w-full lg:-mt-0 md:-mt-5 sm:-mt-5 -mt-5 "> 
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.437879692636!2d86.43137977432785!3d23.803023386755978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6bd41386c516d%3A0xbcd7d938eaed2bdd!2sSystAIO%20Technologies%20%2C%20Website%20Development%20Company%20in%20Dhanbad!5e0!3m2!1sen!2sin!4v1726921881051!5m2!1sen!2sin"
+          width="100%"
+          height="300"
+          style={{ border: 0 }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          className="rounded-lg shadow-lg"
+        ></iframe>
+      </div>
+    </div>
+
+  </div>
 </div>
-
-
 
       <Accordion />
     </>

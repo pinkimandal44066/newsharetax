@@ -224,7 +224,7 @@ const FAQPage = () => {
   };
 
   return (
-    <div className=" bg-gray-100   py-10 lg:-mt-48 md:-mt-24 sm:-mt-20 -mt-20">
+    <div className=" bg-gray-100   py-10 ">
       <div className="mx-5 lg:mx-20">
        
         <div className="space-y-4">
