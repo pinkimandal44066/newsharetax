@@ -326,7 +326,7 @@ Our distinctive framework seamlessly integrates finance and tax expertise, setti
         <p className="text-lg text-gray-700 leading-7 mb-8">
           Integrity, professionalism, and personalized service are at the heart of our practice. We are committed to building long-term relationships with our clients, delivering solutions that are both reliable and growth-oriented. 
         </p>
-        <p className="text-lg text-gray-700 leading-7 mb-8">
+        <p className="text-lg text-gray-700 leading-7 ">
           Our team is dedicated to helping you achieve your financial goals, whether through tax planning, auditing, financial advisory, or business consulting. We take pride in our ability to tailor our services to meet your unique needs.
         </p>
       </section>

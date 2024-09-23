@@ -10,6 +10,7 @@ import { NavLink } from "react-router-dom";
 import Accordion from "./Accordion";
 import img4 from '../../../public/img4.png';
 import Products from "../Products";
+import Slidercompent from '../../Components/Slidercompent';
 const Home = () => {
   const [result, setResult] = useState("");
 
@@ -173,7 +174,7 @@ const Home = () => {
 
 
 
-
+{/* <Slidercompent /> */}
 
 
 
@@ -203,7 +204,7 @@ const Home = () => {
 
       
 
-      <div className="max-w-screen-xl  text-center  justify-center  mx-7 lg:mx-64 md:mx-28 sm:mx-12 ">
+      <div className="max-w-screen-xl mt-4 text-center  justify-center  mx-7 lg:mx-64 md:mx-28 sm:mx-12 ">
         <h1 className="lg:text-5xl text-5xl font-bold text-black">
          Our Services
         </h1>
