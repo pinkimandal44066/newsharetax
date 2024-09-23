@@ -6,7 +6,7 @@ import Homevideo from '../Homevideo';
 const Homepage = () => {
   return (
     <div>
-            {/* <Homevideo /> */}
+            <Homevideo />
       {/* <NavbarScrollingpage /> */}
       <Home />
     

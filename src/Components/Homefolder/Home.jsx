@@ -404,7 +404,7 @@ const Home = () => {
 
 
 
-<div className="min-h-screen flex justify-center items-center lg:mx-20 lg:-mt-16 md:-mt-1  sm:-mt-1 mb-16 -mt-14">
+<div className="min-h-screen flex justify-center items-center lg:mx-20 lg:-mt-20 md:-mt-1  sm:-mt-1 mb-16 -mt-14">
   <div className="max-w-7xl w-full mx-auto flex flex-col lg:flex-row items-center lg:items-start p-4 sm:p-6 lg:p-12 space-y-10 lg:space-y-0 lg:space-x-16">
 
     <div className="lg:w-1/2 w-full text-center lg:text-left">

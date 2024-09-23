@@ -208,6 +208,97 @@
 
 
 
+// import React from "react";
+// import Slider from "react-slick";
+// import home from '../../public/home.png';
+
+// const BannerCarousel = () => {
+//   const settings = {
+//     dots: true,
+//     infinite: true,
+//     speed: 500,
+//     autoplay: true,
+//     autoplaySpeed: 3000,
+//     slidesToShow: 1,
+//     slidesToScroll: 1,
+//     pauseOnHover: false, 
+//     pauseOnFocus: false,
+//     cssEase: "linear", 
+//     responsive: [
+//       {
+//         breakpoint: 1024,
+//         settings: {
+//           slidesToShow: 1,
+//           slidesToScroll: 1,
+//         },
+//       },
+//       {
+//         breakpoint: 768,
+//         settings: {
+//           slidesToShow: 1,
+//           slidesToScroll: 1,
+//         },
+//       },
+//       {
+//         breakpoint: 480,
+//         settings: {
+//           slidesToShow: 1,
+//           slidesToScroll: 1,
+//         },
+//       },
+//     ],
+//   };
+
+//   const images = [home, home, home]; 
+
+//   return (
+//     <div className="w-full h-full">
+//       <Slider {...settings}>
+//         {images.map((image, index) => (
+//           <div key={index} className="w-full h-full">
+//             <img
+//               className="w-full h-full object-cover"
+//               src={image}
+//               alt={`Banner ${index}`}
+//             />
+//           </div>
+//         ))}
+//       </Slider>
+//     </div>
+//   );
+// };
+
+// export default BannerCarousel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import React from "react";
 import Slider from "react-slick";
 import home from '../../public/home.png';
@@ -221,9 +312,9 @@ const BannerCarousel = () => {
     autoplaySpeed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    pauseOnHover: false, 
-    pauseOnFocus: false,
-    cssEase: "linear", 
+    pauseOnHover: true,
+    pauseOnFocus: true,
+    cssEase: "ease-in-out",
     responsive: [
       {
         breakpoint: 1024,
@@ -249,15 +340,15 @@ const BannerCarousel = () => {
     ],
   };
 
-  const images = [home, home, home]; 
+  const images = [home, home, home];
 
   return (
-    <div className="w-full h-full">
+    <div className="w-full overflow-hidden">
       <Slider {...settings}>
         {images.map((image, index) => (
-          <div key={index} className="w-full h-full">
+          <div key={index} className="w-full">
             <img
-              className="w-full h-full object-cover"
+              className="object-cover w-full h-[500px] md:h-[400px] sm:h-[300px] h-[250px]"  // Adjust height for different screens
               src={image}
               alt={`Banner ${index}`}
             />
